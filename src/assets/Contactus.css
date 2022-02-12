@@ -1,0 +1,58 @@
+.appreciation-container {
+    text-align: center;
+}
+
+.appreciation-container .appreciation{
+    font-size: 7vw;
+    margin-top: 2vw !important;
+}
+
+.appreciation-container .author-container{
+    font-size: 3vw;
+}
+
+.social-container {
+    /* border: 1pc solid black; */
+    text-align: center;
+    margin-top: 4vw !important;
+}
+
+.social-container h3{
+    /* border: 1pc solid black; */
+    font-size: 30px !important;
+    margin-bottom: 20px !important;
+}
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+
+a.social:hover {
+    transform: translateY(-2px);
+  }
+
+a.linkedin {
+    color: #0077b5;
+}
+
+a.facebook {
+    color: #4968ad;
+}
+
+a.github {
+    color: #171515;
+}
+
+@media only screen and (max-width: 800px) {
+    .appreciation-container .author-container{
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .appreciation-container .author-container{
+        font-size: 5vw;
+    }
+}

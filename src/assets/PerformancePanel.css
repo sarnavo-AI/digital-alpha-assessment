@@ -1,0 +1,8 @@
+.line-chart-container h3 {
+    font-family: 'Averia Gruesa Libre', cursive !important;
+    text-align: center;
+    color: rgb(136, 136, 136);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.1vw;
+}
